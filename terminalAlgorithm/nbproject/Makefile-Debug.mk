@@ -38,7 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/io_helpers.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/regra_temporal.o \
-	${OBJECTDIR}/terminalAlgorithm.o
+	${OBJECTDIR}/terminal_algorithm.o
 
 
 # C Compiler Flags
@@ -80,10 +80,10 @@ ${OBJECTDIR}/regra_temporal.o: regra_temporal.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/regra_temporal.o regra_temporal.cpp
 
-${OBJECTDIR}/terminalAlgorithm.o: terminalAlgorithm.cpp 
+${OBJECTDIR}/terminal_algorithm.o: terminal_algorithm.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/terminalAlgorithm.o terminalAlgorithm.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/terminal_algorithm.o terminal_algorithm.cpp
 
 # Subprojects
 .build-subprojects:

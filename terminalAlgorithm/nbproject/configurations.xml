@@ -6,7 +6,7 @@
                    projectFiles="true">
       <itemPath>io_helpers.h</itemPath>
       <itemPath>regra_temporal.h</itemPath>
-      <itemPath>terminalAlgorithm.h</itemPath>
+      <itemPath>terminal_algorithm.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
@@ -14,7 +14,7 @@
       <itemPath>io_helpers.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>regra_temporal.cpp</itemPath>
-      <itemPath>terminalAlgorithm.cpp</itemPath>
+      <itemPath>terminal_algorithm.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Arquivos de Recurso"
@@ -55,9 +55,9 @@
       </item>
       <item path="regra_temporal.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="terminalAlgorithm.cpp" ex="false" tool="1" flavor2="0">
+      <item path="terminal_algorithm.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="terminalAlgorithm.h" ex="false" tool="3" flavor2="0">
+      <item path="terminal_algorithm.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -90,9 +90,9 @@
       </item>
       <item path="regra_temporal.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="terminalAlgorithm.cpp" ex="false" tool="1" flavor2="0">
+      <item path="terminal_algorithm.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="terminalAlgorithm.h" ex="false" tool="3" flavor2="0">
+      <item path="terminal_algorithm.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
