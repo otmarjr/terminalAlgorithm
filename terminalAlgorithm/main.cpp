@@ -27,6 +27,7 @@ void testar_instancia_regra_temporal(){
     regra_temporal* r = new regra_temporal(premissa.begin(), premissa.end(), conclusao.begin(), conclusao.end());
     
     cout<< r->para_string_linguagem_natural();
+    
 }
 
 void testar(){
